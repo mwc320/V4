@@ -64,7 +64,7 @@
                         <div class="row">
                             <div class="col-md-1 col-sm-2 hidden-xs">
                                 <div class="bar__module">
-                                    <a href="/"> <img class="logo logo-dark" alt="logo" src="img/logo.png"> <img class="logo logo-light" alt="logo" src="img/logo.png"> </a>
+                                    <a href="/"> <img class="logo logo-dark" alt="logo" src="img/logus.png"> <img class="logo logo-light" alt="logo" src="img/logus.png"> </a>
                                 </div>
                             </div>
                             <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
@@ -76,15 +76,18 @@
                                         <li>
                                             <a href="#contact">Contact</a>
                                         </li>
+                                        <li>
+                                            <a>Get Notified</a>
+                                        </li>
                                     </ul>
                                 </div>
-                                <div class="bar__module modal-instance block">
+                                <!-- <div class="bar__module modal-instance block">
                                     <a class="btn btn--sm btn--primary type--uppercase" href="#"> 
                                         <span class="btn__text">
                                             Get Started
                                         </span> 
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -95,7 +98,7 @@
             <section class="switchable switchable--switch feature-large border--bottom">
                 <div class="container" id="getstarted">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 switchable__text">
+                        <div class="col-md-6 col-sm-6 col-xs-push-4 switchable__text">
                             <h2>Starting a home improvement project?
                                 <!-- <span
                                     class="txt-rotate"
@@ -121,16 +124,16 @@
                                     <input name="tel" type="tel" placeholder="Enter your phone number"/>
                                 </div>
                                 <div class="col-sm-4 text-center-xs col-xs-12">
-                                    <a class="btn btn--sm text-center-xs btn--primary type--uppercase" onclick="sendSMS()" type="submit" href="#"> 
+                                    <a class="btn btn--sm text-center-xs btn--primary type--uppercase" type="submit" type="submit" href="#"> 
                                         <span class="btn__text">
-                                            Get Started
+                                            Get Notified
                                         </span> 
                                     </a>
                                 </div>
                             </form>
 
                         </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-md-4 col-xs-pull-4 col-sm-6 col-xs-12">
                                     <img class="phone" src="img/haus.png">
                         </div>
                     </div>
@@ -145,7 +148,7 @@
                     </div>
                 </div>
             </section>
-            <section class="switchable feature-large">
+            <section class="switchable feature-large" id="features">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
@@ -215,13 +218,13 @@
                             <div class="cta">
                                 <h2>Start a new project today</h2>
                                 <a class="btn btn--primary type--uppercase" href="#getstarted"> <span class="btn__text">
-                                Get Started</span></a>
+                                Get Notified</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="switchable" data-overlay="0">
+            <section class="switchable" data-overlay="0" id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-5">
@@ -291,6 +294,16 @@
         <script type="text/javascript">
           feather.replace()
         </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74853710-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-74853710-1');
+        </script>
+
 
     </body>
 
